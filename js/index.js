@@ -1,4 +1,3 @@
-document.addEventListener("partialsLoaded", () => {
-    //import("./task.js");
-
-});
+document.addEventListener("DOMContentLoaded", () => {
+    import("/js/main.js");
+})

@@ -17,6 +17,13 @@ li.list-group-item{
     background-color: #423a6f;
     color: #F8F9FA;
 }
+li.list-group-item span {
+  user-select: none;
+}
+li.list-group-item span.completed{
+    text-decoration: line-through;
+    color: grey;  
+}
 
 .delete{
     cursor: pointer;
@@ -34,4 +41,8 @@ label.add{
     background-color: #423a6f;
     color: #F8F9FA;
     padding: 30px;
+}
+
+.hidden {
+    display: none;
 }
