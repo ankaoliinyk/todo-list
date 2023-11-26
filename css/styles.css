@@ -46,3 +46,28 @@ label.add{
 .hidden {
     display: none;
 }
+
+button.clear {
+    margin-top: 10px;
+    background-color: #483f7a;
+    border: none;
+}
+
+button.clear:hover {
+    background-color: #423a6f;
+    border: none;
+}
+
+button.clear:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background-color: #423a6f;
+}
+
+button.clear:active {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background-color: #423a6f;
+}

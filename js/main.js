@@ -7,7 +7,7 @@ addForm.addEventListener("submit", (e) => {
     const inputValue = addForm.add.value;
 
     if (inputValue.length) {
-        taskList.addTask(inputValue);
+        taskList.addTask(inputValue, false, null, null);
     }
     
     addForm.add.value = "";
